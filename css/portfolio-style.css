@@ -1,0 +1,259 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #faf7f2;
+  background: radial-gradient(circle at right top, #4b4dbe , #000000);
+}
+
+#logo {
+  width:100px; 
+  height:100px;
+}
+
+#hamburger {
+  color:#faf7f2; 
+  font-size:30px;
+}
+
+.navbar .nav-link {
+  color: #faf7f2;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+#navbarNav{
+  justify-content: right;
+}
+
+.header-container-text {
+  text-align: center;
+}
+
+#img-container {
+  width: 100%;
+}
+
+.technologies-used {
+  background-color: green;
+  border-width: 3px;
+  border-color: green;
+  border-style: solid;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#portfolio-1-tech-stack-container {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#portfolio-2-tech-stack-container {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#portfolio-3-tech-stack-container {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#portfolio-4-tech-stack-container {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#portfolio-5-tech-stack-container {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#portfolio-6-tech-stack-container {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+#portfolio-7-tech-stack-container {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer p{
+  font-size: 12px;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1187px) {
+  .portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #portfolio-1-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  #portfolio-2-tech-stack-container {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  #portfolio-3-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  #portfolio-4-tech-stack-container {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  #portfolio-5-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+
+  #portfolio-6-tech-stack-container {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+
+  #portfolio-7-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    border:0px;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  .portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #portfolio-1-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  #portfolio-2-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  #portfolio-3-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+
+  #portfolio-4-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+  }
+
+  #portfolio-5-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 10;
+    grid-row-end: 10;
+  }
+
+  #portfolio-6-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 12;
+    grid-row-end: 12;
+  }
+
+  #portfolio-7-tech-stack-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 14;
+    grid-row-end: 14;
+  }
+
+  .navbar .nav-link:hover {
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    border:0px;
+  }
+}
