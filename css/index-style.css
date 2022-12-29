@@ -55,41 +55,119 @@ header {
   opacity: 0.8;
 }
 
-.intro-box{
+#list-container {
+  margin: auto;
+  width: 65%;
+}
+
+#info-box {
   display: grid;
-  grid-template-columns: 25% 75%;
-}
-
-.intro-box-image {
-  text-align: center;
-}
-
-#personal-pic{
-  max-width:75%;
-  max-height:100%;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.intro-box-text{
-  margin-right: 25px;
-}
-
-#portfolio-box {
+  grid-template-columns: 1fr 3fr;
+  max-height: 350px;
   background-color: #393E46;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#portfolio-header{
+#info-box-img{
   text-align: center;
-  margin-bottom: 20px;
-  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+#info-box-img-img{
+  max-height: 200px;
+}
 
-.project-column-box{
+#info-box-txt{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exp-1-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
+  max-height: 350px;
+  background-color: #393E46;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#exp-1-box-img{
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exp-1-box-img-img{
+  max-height: 200px;
+}
+
+#exp-1-box-txt{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exp-2-box {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  max-height: 350px;
+  background-color: #393E46;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#exp-2-box-img{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#exp-2-box-img-img{
+  max-height: 200px;
+}
+
+#exp-2-box-txt{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#pace-box {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 240px;
+  background-color: #393E46;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#pace-box-img{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+#pace-box-img-img{
+  width: 200px;
+
+}
+
+#pace-box-txt{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #resume-box{
