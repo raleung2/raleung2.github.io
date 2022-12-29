@@ -27,6 +27,39 @@ body{
   justify-content: right;
 }
 
+#contact-box{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#contact-box-email{
+  color: #faf7f2;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  padding-top: 8px;
+}
+
+.fa-github{
+  color: #6cc644;
+}
+
+.fa-github:hover {
+  color: rgba(108, 198, 68, 0.8);
+}
+
+
+.fa-linkedin {
+  color: #0072b1;
+}
+
+.fa-linkedin:hover {
+  color: rgba(0, 114, 177, 0.8);
+}
+
 .footer {
   background-color: rgba(255, 255, 255, 0.1);
 }
