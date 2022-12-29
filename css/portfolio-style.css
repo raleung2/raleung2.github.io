@@ -38,15 +38,15 @@ body{
 .technologies-used {
   background-color: #00ADB5;
   border-width: 3px;
-  border-color: #00ADB5
+  border-color: #00ADB5;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 20px;
   display: inline-block;
   color: #EEEEEE;
   margin-left: 5px;
   margin-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 2px;
   padding-bottom: 2px;
 }
@@ -58,11 +58,17 @@ body{
   margin-top: 50px;
 }
 
+.portfolio {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 #portfolio-1-tech-stack-container {
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 2;
   grid-row-end: 2;
+  margin-bottom: 10px;
 }
 
 #portfolio-2-tech-stack-container {
@@ -70,6 +76,7 @@ body{
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 2;
+  margin-bottom: 10px;
 }
 
 #portfolio-3-tech-stack-container {
@@ -77,6 +84,7 @@ body{
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 2;
+  margin-bottom: 10px;
 }
 
 #portfolio-4-tech-stack-container {
@@ -84,6 +92,7 @@ body{
   grid-column-end: 1;
   grid-row-start: 4;
   grid-row-end: 4;
+  margin-bottom: 10px;
 }
 
 #portfolio-5-tech-stack-container {
@@ -91,6 +100,7 @@ body{
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 4;
+  margin-bottom: 10px;
 }
 
 #portfolio-6-tech-stack-container {
@@ -98,6 +108,7 @@ body{
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 4;
+  margin-bottom: 10px;
 }
 
 #portfolio-7-tech-stack-container {
@@ -105,6 +116,7 @@ body{
   grid-column-end: 1;
   grid-row-start: 6;
   grid-row-end: 6;
+  margin-bottom: 10px;
 }
 
 .footer {
@@ -123,6 +135,11 @@ body{
   .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   #portfolio-1-tech-stack-container {

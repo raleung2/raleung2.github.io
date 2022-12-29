@@ -45,7 +45,7 @@ header {
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  border-radius: 6px;
+  border-radius: 20px;
   margin-top: 10px;
   color: #EEEEEE;
 }
@@ -58,6 +58,10 @@ header {
 #list-container {
   margin: auto;
   width: 65%;
+}
+
+.box-txt{
+  margin-bottom: 0px;
 }
 
 #info-box {
@@ -154,13 +158,13 @@ header {
 #pace-box-img{
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  justify-content: center;
+  padding-left: 20px;
   padding-right: 20px;
 }
 
 #pace-box-img-img{
   width: 200px;
-
 }
 
 #pace-box-txt{
@@ -168,24 +172,6 @@ header {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-#resume-box{
-  text-align: center;
-}
-
-.resume-img{
-  height: auto;
-  width: 200px; 
-}
-
-#contact-box{
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-#contact-box-email{
-  color: #EEEEEE;
 }
 
 .fa {
@@ -250,17 +236,13 @@ header {
     border:0px;
   }
 
-
-}
-
-
-
-@media screen and (max-width: 1187px) {
-  .project-column-box{
-  display: grid;
-  grid-template-columns: 1fr;
+  #list-container {
+    margin: auto;
+    width: 95%;
   }
 
+}
+@media screen and (max-width: 1187px) {
   .navbar-nav {
     text-align: center;
   }
@@ -271,5 +253,24 @@ header {
   .navbar-toggler-icon:focus {
     border:0px;
   }
-}
 
+  #info-box{
+    display: block;
+    max-height: 100%;
+  }
+
+  #exp-1-box{
+    display: block;
+    max-height: 100%;
+  }
+
+  #exp-2-box{
+    display: block;
+    max-height: 100%;
+  }
+
+  #pace-box{
+    display: block;
+    max-height: 100%;
+  }
+}

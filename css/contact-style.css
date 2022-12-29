@@ -41,6 +41,17 @@ body{
   padding-right: 200px;
 }
 
+#contact-form-button{
+  border-width: 0px;
+  border-color: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  color: #EEEEEE;
+  background: linear-gradient(180deg, #00ADB5 0%, #00B1C5 100%);
+  cursor: pointer;
+}
+
 #contact-box{
   text-align: center;
   padding-bottom: 10px;
